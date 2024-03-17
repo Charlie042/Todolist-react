@@ -15,7 +15,7 @@ export const Editing = ({editTask, task}) => {
         <input className='form-input'
             type='text'
             value={value}
-            placeholder="What's your plan today?"
+            placeholder="Update the task..."
             onChange={e => setValue(e.target.value)}
         />
         <button type='submit' className='input-btn'>Update</button>

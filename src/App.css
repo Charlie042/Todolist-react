@@ -48,12 +48,12 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 2rem;
   width: 300px;
-  color: #fff;
-
+  color:white;
   
 }
+
 todo-input::placeholder {
-  color: #ffffff4d;
+  color:black;
 }
 .input-btn{
   background:rgb(248, 144, 8);
@@ -62,6 +62,9 @@ todo-input::placeholder {
   padding: 0.55rem;
   cursor: pointer;
 
+}
+.input-btn:hover{
+  background-color:rgb(148, 86, 5);
 }
 .task-p{
   display: flex;
