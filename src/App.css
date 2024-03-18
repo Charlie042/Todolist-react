@@ -98,6 +98,7 @@ todo-input::placeholder {
 @media only screen and (max-width: 600px) {
   .Todowrap {
     margin-top: 10%;
+    margin-left: 10%;
     padding: 1rem;
     width: 90%;
     max-width: 400px;
